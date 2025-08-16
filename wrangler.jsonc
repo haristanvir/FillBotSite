@@ -1,7 +1,9 @@
+// filepath: /Users/haristanvir/Documents/FillBotSite/wrangler.jsonc
 {
   "name": "fillbotsite",
   "compatibility_date": "2025-08-16",
   "assets": {
     "directory": "./dist/public"
-  }
+  },
+  "routes": ["fillbot.ca/*", "www.fillbot.ca/*"]
 }
