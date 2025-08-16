@@ -5,5 +5,10 @@
   "assets": {
     "directory": "./dist/public"
   },
-  "routes": ["fillbot.ca/*", "www.fillbot.ca/*"]
+  "routes": [
+    {
+      "pattern": "fillbot.ca",
+      "custom_domain": true
+    }
+  ]
 }
