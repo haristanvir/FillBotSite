@@ -63,10 +63,13 @@ export default function HeroSection() {
           >
             <div className="relative w-full h-full flex items-center justify-center min-h-[400px]">
               <video
-                className="w-full h-full object-cover rounded-3xl"
-                autoPlay
                 muted
+                autoPlay
                 loop
+                playsInline
+                preload="auto"
+                poster="https://pub-216fe63ea86645958432f8da7c245b0f.r2.dev/fillBotDemoPoster.jpg"
+                className="w-full h-full object-cover rounded-3xl"
                 data-testid="video-demo"
               >
                 <source
