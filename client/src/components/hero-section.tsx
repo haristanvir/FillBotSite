@@ -73,7 +73,7 @@ export default function HeroSection() {
                 data-testid="video-demo"
               >
                 <source
-                  src="https://pub-216fe63ea86645958432f8da7c245b0f.r2.dev/fillBotDemo.mp4"
+                  src="https://pub-216fe63ea86645958432f8da7c245b0f.r2.dev/fillBotDemoShorter.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
